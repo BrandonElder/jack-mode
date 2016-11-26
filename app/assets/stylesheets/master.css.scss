@@ -95,6 +95,11 @@ h2 span {
   font-family: 'nobilemedium', sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
 ::selection {
   background-color: #f84342;
 }
