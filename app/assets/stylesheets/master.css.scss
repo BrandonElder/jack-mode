@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 .clear {
   clear:both;
 }
@@ -60,15 +61,23 @@
   font-size: 11px;
 }
 
+.links {
+  padding-top: 20px;
+}
+
 .modal {
   font-family: 'nobilemedium', sans-serif;
 }
 
 .grey {
-  height: 1px;
+  height: 2px;
   background-color: #DCE5E8;
   border: none;
   width: 96%;
+}
+
+.img-responsive {
+  border-radius: 30%;
 }
 
 header {
