@@ -6,6 +6,10 @@
   clear:both;
 }
 
+.clear-hr {
+  clear:both;
+}
+
 .circle {
     font-weight:bold;
     font-style: italic;
@@ -77,8 +81,9 @@
 }
 
 .img-responsive {
-  border-radius: 30%;
+ border-radius: 30%;
 }
+
 
 header {
   border-top: 9px solid #222222;
