@@ -1,21 +1,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
-.clear {
-  clear:both;
-}
-
+/* NAVBAR */
 
 .circle {
     font-weight:bold;
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: #E09D31;
     border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
@@ -27,64 +23,145 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
-.slogan {
-  font-family: 'nobilemedium_italic', sans-serif;
-  padding-top: 30px;
-  font-size: 12px;
+.top {
+  padding-left: 70px;
 }
+
+.slogan {
+  font-family: 'nobilemedium', sans-serif;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.links {
+  padding-top: 38px;
+}
+
 
 .links a {
   color:black;
-  font-size: 25px;
+  font-size: 20px;
   border-bottom: 1px solid #dfdfdf;
   font-family: 'nobilemedium', sans-serif;
   font-weight:bold;
-}
-
-.next-quote {
-  color:#f84342;
-  font-family: 'nobilemedium_italic', sans-serif;
-  font-size: 20px;
-}
-
-.footer-blurb {
-  font-family: 'nobilemedium_italic', sans-serif;
-  text-align:right;
-  font-size:9px;
 }
 
 .logo:hover {
   text-decoration:none;
 }
 
+
+/* HERO */
+
+.bgimg {
+  background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+  url('Sky1.jpg') #222 no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 80vh;
+  margin-top: 8px;
+}
+
+.quotes {
+  margin-top: 20vh;
+}
+
+
+.btn-success,
+.btn-success:active,
+.btn-success:visited,
+.btn-success:focus {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 2px solid #E09D31 !important;
+  padding: 20px 40px;
+}
+
+.btn-success:hover {
+  background-color: #E09D31 !important;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.btndiv {
+  padding-top: 26px;
+  margin: 0 auto;
+}
+
+.next-quote {
+  color: #E09D31;
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+/* About */
+
 .about {
   font-family: 'nobilemedium', sans-serif;
   font-size: 11px;
 }
 
-.links {
-  padding-top: 20px;
+.img-responsive {
+ border-radius: 40%;
+ display: block;
+ margin: 0 auto;
+ height: 70vh;
 }
+
+hr {
+  clear: both;
+  width: 100%;
+}
+
+.h1About {
+  font-family: 'nobilemedium', sans-serif;
+  font-size: 36px; 
+  color: black;
+}
+
+.abimg {
+  align: center;
+}
+
+/* MODAL */
 
 .modal {
   font-family: 'nobilemedium', sans-serif;
 }
 
-.grey {
-  height: 2px;
-  background-color: #DCE5E8;
-  border: none;
-  width: 96%;
+.btn-danger,
+.btn-danger:active,
+.btn-danger:visited,
+.btn-danger:focus {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 2px solid #E09D31 !important;
+  color: #E09D31;
+}
+
+.btn-danger:hover {
+  background-color: #E09D31 !important;
+  color: #fff;
+}
+
+
+
+/* OTHER */
+
+.clear {
   clear:both;
 }
 
-.img-responsive {
- border-radius: 30%;
-}
-
-
 header {
   border-top: 9px solid #222222;
+}
+
+body {
+  padding-bottom: 66px;
+  margin: 0;
 }
 
 hr {
@@ -93,19 +170,20 @@ hr {
 
 h1 {
   font-family: 'nobilemedium', sans-serif;
-  font-weight: bold;
-  font-size: 48px;
+  font-size: 36px;
+  color: #fff;
 }
+
 
 h2 {
   font-family: 'nobilemedium_italic', sans-serif;
+  color: #fff;
 }
 
 h2 span {
-  color: #dddddd;
+  color: rgba(255,255,255,0.6);
   font-family: 'nobilemedium', sans-serif;
 }
-
 
 a:hover {
   text-decoration: none;
@@ -116,8 +194,11 @@ a:hover {
   background-color: #f84342;
 }
 
+
+
+
 @media (max-wdth: 750px) {
   .footer-blurb {
-  text-align: left;
+    text-align: left;
   }
 }
